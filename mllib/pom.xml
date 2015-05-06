@@ -98,6 +98,12 @@
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
+    <!-- Min added for cassandra -->
+    <dependency>
+        <groupId>com.datastax.spark</groupId>
+        <artifactId>spark-cassandra-connector_2.10</artifactId>
+        <version>1.1.1</version>
+    </dependency>
   </dependencies>
   <profiles>
     <profile>
