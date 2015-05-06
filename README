@@ -1,0 +1,6 @@
+A Spark-based implementation of Deep Learning framework.
+Based on Spark-1.1.0 now.
+
+The home folder for dl-related files is DL_HOME=cogngin/mllib/src/main/scala/org/apache/spark/mllib/
+The non-ps implementation is under $DL_HOME/dl/ and the ps-based implementation is under $DL_HOME/dlps.
+The application is under cogngin/bigdata-course/ .
