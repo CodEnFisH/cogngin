@@ -1,4 +1,0 @@
-#!/bin/sh
-export AWS_SECRET_ACCESS_KEY=2qkdcqCYgSt5ZyNllv4Pf0Xf2GWj7cWoOC3z5JLd
-export AWS_ACCESS_KEY_ID=AKIAJPELX324UXAY463A
-./ec2/spark-ec2 --slaves=5 --key-pair=codefish-bigdata --identity-file=/ec2/codefish-bigdata.pem --region=us-east-1 --zone=us-east-1b --spark-git-repo=git@github.com:CodEnFisH/cogngin.git --spark-version= launch cogngin-experiment
